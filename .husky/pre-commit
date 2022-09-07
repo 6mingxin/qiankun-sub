@@ -1,0 +1,4 @@
+#!/bin/sh
+. "$(dirname "$0")/_/husky.sh"
+#git提交时触发eslint,执行lint-staged
+npx lint-staged
